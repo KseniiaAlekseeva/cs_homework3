@@ -4,7 +4,7 @@ int num = 0, absNum = 0;
 
 while ((absNum / 10000 < 1) || (absNum / 10000 > 9))
 {
-    Console.Write("Add a 5-digit number: ");
+    Console.Write("Enter a 5-digit number: ");
     num = int.Parse(Console.ReadLine());
     absNum = Math.Abs(num);
 }
